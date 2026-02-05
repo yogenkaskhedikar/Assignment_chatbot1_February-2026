@@ -1,0 +1,3 @@
+streamlit>=1.33.0
+model="gpt-5.2"
+python-dotenv
