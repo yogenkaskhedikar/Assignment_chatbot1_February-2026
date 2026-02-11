@@ -13,7 +13,7 @@ from openai import OpenAI
 # ----------------------------
 # OpenAI Client Initialization
 # ----------------------------
-client = OpenAI(api_key=st.secrets.get("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", ""))
+client = OpenAI(api_key=st.secrets.get("OPEN_AI_KEY", ""))
 
 # ----------------------------
 # System Prompt
